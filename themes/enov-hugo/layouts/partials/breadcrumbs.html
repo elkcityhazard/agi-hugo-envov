@@ -1,0 +1,17 @@
+
+
+<ol  class="nav navbar-nav d-block text-left list-group breadcrumb-group mx-auto my-0 mb-2 py-3">
+    {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+  </ol>
+
+
+  {{ define "breadcrumbnav" }}
+  {{ if .p1.Parent }}
+  {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
+  {{ else if not .p1.IsHome }}
+  {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+  {{ end }}
+  <li{{ if eq .p1 .p2 }} class="list-group-item active d-inline-block breadcrumb-item pl-3"{{ end }} class="breadcrumb-item pl-2">
+    <a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
+  </li>
+  {{ end }}

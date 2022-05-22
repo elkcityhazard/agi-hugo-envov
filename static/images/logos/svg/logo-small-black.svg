@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- My Brand New Logo (1.0.120), id: DDjmBA8VQOsZPnN8pkXE (1.2.0), date: 2022-02-17 19:15 -->
+<svg version="1.1" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="191.693 191.25 616.615 617.501" width="1000" height="1000">
+	<defs>
+		<path id="def-1" d="M797.008,500 A297.008,297.008 0 1 0 202.992,500 A297.008,297.008 0 1 0 797.008,500 Z" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="25"></path>
+		<g id="def-2">
+			<path d="M220.531,500 A279.469,279.469 0 1 0 779.469,500 A279.469,279.469 0 1 0 220.531,500 Z M772.07,500 A272.07,272.07 0 1 1 227.93,500 A272.07,272.07 0 1 1 772.07,500 Z" fill="#000"></path>
+			<use xlink:href="#def-1" fill="none" stroke="#000" stroke-width="2.102"></use>
+		</g>
+		<g id="def-3" transform="matrix(4.715, 0, 0, 4.715, 344.394, 344.394)" fill="#000" stroke="none" stroke-width="1">
+			<g transform="translate(-17, -17)">
+				<g></g>
+				<path d=" M82.29,17.5 L49.895,43.494 L17.5,17.5 L17.5,82.309 L49.895,56.315 L82.29,82.309 L82.29,17.5 Z M57.884,49.904 L72.29,38.345 L72.29,61.463 L57.884,49.904 Z M27.5,38.345 L41.906,49.904 L27.5,61.463 L27.5,38.345 Z"></path>
+			</g>
+		</g>
+		<mask id="mask-1" x="101.014" y="100.571" width="797.972" height="798.858" maskUnits="userSpaceOnUse" stroke-width="0">
+			<rect x="137.286" y="136.842" width="725.429" height="726.315" fill="#fff"></rect>
+			<use xlink:href="#def-2"></use>
+			<use xlink:href="#def-3"></use>
+		</mask>
+		<g id="def-4" mask="url(#mask-1)">
+			<use xlink:href="#def-1" stroke-width="10.509"></use>
+		</g>
+		<mask id="mask-2" x="101.014" y="100.571" width="797.972" height="798.858" maskUnits="userSpaceOnUse" stroke-width="0">
+			<rect x="137.286" y="136.842" width="725.429" height="726.315" fill="#000"></rect>
+			<use xlink:href="#def-4" fill="#fff" stroke="#fff"></use>
+		</mask>
+	</defs>
+	<g mask="url(#mask-2)">
+		<rect x="137.286" y="136.842" width="725.429" height="726.315" fill="#000"></rect>
+	</g>
+</svg>

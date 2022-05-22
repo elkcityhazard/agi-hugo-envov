@@ -1,0 +1,241 @@
+################################## Banner #################################
+banner:
+  enable : true
+  subtitle : "Build For Beauty And Accessibility"
+  title : "Absolutely Gorgeous Interiors"
+
+  # solid button
+  button_solid:
+    enable : true
+    label : "Get started"
+    link : "contact"
+
+  # border button
+  button_border:
+    enable : true
+    label : "Our Services"
+    link : "service"
+
+######################## Banner call to action ############################
+banner_cta:
+  enable : true
+  title : "Crafting visually stunning & accessible spaces for your home, office, or business"
+  content : "Absolutely Gorgeous Interiors creates and delivers simple, beautiful, and timeless design solutions with an unwavering commitment to excellence. We leverage our know-how, resources, and relationships to bring your vision to life."
+  button:
+    enable : true
+    label : "Learn more"
+    link : "https://tidycal.com/absolutely-gorgeous-interiors"
+
+########################## feature ########################################
+feature:
+  enable : true
+  title : "Stunning Interior Construction & Accessibility Solutions Serving Traverse City and Surround Areas"
+  feature_item:
+    # feature item loop
+    - title : "Modern Luxury Designs"
+      icon : "ti-ruler-pencil" # icon pack : https://themify.me/themify-icons
+      content : "25 years of experience designing & building luxury homes and and commercial offices."
+      
+    # feature item loop
+    - title : "Certifed Accessibility Contractor"
+      icon : "ti-medall" # icon pack : https://themify.me/themify-icons
+      content : "ADA accessible buildings are good for everyone - accessible, beautiful, and compliant"
+
+######################## About #######################################
+about:
+  enable : true
+  image : "images/home-page/bathroom-remodel-540x360.jpeg"
+  title : "We Build And Customize To Bring Your Vision To Life"
+  content : "Our designs begin with your vision.  From our first meeting through to the completion of the project, we will listen to your needs and make a beautiful and functional space that is timeless, accessible, and beautiful."
+  button:
+    enable : true
+    label : "Get started"
+    link : "pricing"
+
+##################### Funfacts ######################################
+funfacts:
+  enable : false
+  funfact_item:
+    # fanfacts item loop
+    - title : "Project Done"
+      icon : "ti-check" # themify icon pack: https://themify.me/themify-icons
+      count : "1730"
+      unit : "+"
+      
+    # fanfacts item loop
+    - title : "User Worldwide"
+      icon : "ti-flag" # themify icon pack: https://themify.me/themify-icons
+      count : "125"
+      unit : "M"
+      
+    # fanfacts item loop
+    - title : "Availble Country"
+      icon : "ti-layers" # themify icon pack: https://themify.me/themify-icons
+      count : "40"
+      unit : ""
+      
+    # fanfacts item loop
+    - title : "Award Winner"
+      icon : "ti-medall" # themify icon pack: https://themify.me/themify-icons
+      count : "10"
+      unit : "+"
+
+######################### Service #####################################
+service:
+  enable : true
+  title : "Total All In One Solution"
+  content : "We leverage our know-how and professional network to be the only contractor you need for your new construction or remodel project."
+  # service item comes from "data/**/service.yml" file
+
+######################### pricing #####################################
+pricing:
+  enable : false
+  # pricing item comes from "data/**/pricing.yml" file
+
+############################# Team ##################################
+team:
+  enable: true
+  title : "Our Team"
+  content : "We Can Help Realize Your Ideal Living Space"
+  team_member:
+    ################### team member loop
+    - name : "Mark Delikta"
+      image : "images/about/bio/page-1.jpeg"
+      designation : "Owner - Designer - Interior Specialist"
+      social:
+      #  # social site loop
+      #  - icon : "ti-facebook" # icon pack : https://themify.me/themify-icons
+      #    link : "#"
+      #    
+      #  # social site loop
+      #  - icon : "ti-twitter-alt" # icon pack : https://themify.me/themify-icons
+      #    link : "#"
+      #    
+      #  # social site loop
+      #  - icon : "ti-linkedin" # icon pack : https://themify.me/themify-icons
+      #    link : "#"
+      #    
+      #  # social site loop
+      #  - icon : "ti-github" # icon pack : https://themify.me/themify-icons
+      #    link : "#"
+        
+    ################### team member loop
+    - name : "Donald"
+      image : "images/about/bio/page-2.jpeg"
+      designation : "Owner - Concrete Specialist"
+      social:
+      #  # social site loop
+      #  - icon : "ti-facebook" # icon pack : https://themify.me/themify-icons
+      #    link : "#"
+      #    
+      #  # social site loop
+      #  - icon : "ti-twitter-alt" # icon pack : https://themify.me/themify-icons
+      #    link : "#"
+      #    
+      #  # social site loop
+      #  - icon : "ti-linkedin" # icon pack : https://themify.me/themify-icons
+      #    link : "#"
+      #    
+      #  # social site loop
+      #  - icon : "ti-github" # icon pack : https://themify.me/themify-icons
+      #    link : "#"
+          
+    ################### team member loop
+    #- name : "David Spensor"
+    #  image : "images/team/team-3.jpg"
+    #  designation : "Project Manager"
+    #  social:
+    #    # social site loop
+    #    - icon : "ti-facebook" # icon pack : https://themify.me/themify-icons
+    #      link : "#"
+    #      
+    #    # social site loop
+    #    - icon : "ti-twitter-alt" # icon pack : https://themify.me/themify-icons
+    #      link : "#"
+    #      
+    #    # social site loop
+    #    - icon : "ti-linkedin" # icon pack : https://themify.me/themify-icons
+    #      link : "#"
+    #      
+    #    # social site loop
+    #    - icon : "ti-github" # icon pack : https://themify.me/themify-icons
+    #      link : "#"
+    #      
+    #################### team member loop
+    #- name : "Jason Roy"
+    #  image : "images/team/team-4.jpg"
+    #  designation : "Project Manager"
+    #  social:
+    #    # social site loop
+    #    - icon : "ti-facebook" # icon pack : https://themify.me/themify-icons
+    #      link : "#"
+    #      
+    #    # social site loop
+    #    - icon : "ti-twitter-alt" # icon pack : https://themify.me/themify-icons
+    #      link : "#"
+    #      
+    #    # social site loop
+    #    - icon : "ti-linkedin" # icon pack : https://themify.me/themify-icons
+    #      link : "#"
+    #      
+    #    # social site loop
+    #    - icon : "ti-github" # icon pack : https://themify.me/themify-icons
+    #      link : "#"
+    #      
+    #################### team member loop
+    #- name : "Peter Odin"
+    #  image : "images/team/team-1.jpg"
+    #  designation : "Project Manager"
+    #  social:
+    #    # social site loop
+    #    - icon : "ti-facebook" # icon pack : https://themify.me/themify-icons
+    #      link : "#"
+    #      
+    #    # social site loop
+    #    - icon : "ti-twitter-alt" # icon pack : https://themify.me/themify-icons
+    #      link : "#"
+    #      
+    #    # social site loop
+    #    - icon : "ti-linkedin" # icon pack : https://themify.me/themify-icons
+    #      link : "#"
+    #      
+    #    # social site loop
+    #    - icon : "ti-github" # icon pack : https://themify.me/themify-icons
+    #      link : "#"
+    #      
+    #################### team member loop
+    #- name : "David Spensor"
+    #  image : "images/team/team-4.jpg"
+    #  designation : "Project Manager"
+    #  social:
+    #    # social site loop
+    #    - icon : "ti-facebook" # icon pack : https://themify.me/themify-icons
+    #      link : "#"
+    #      
+    #    # social site loop
+    #    - icon : "ti-twitter-alt" # icon pack : https://themify.me/themify-icons
+    #      link : "#"
+    #      
+    #    # social site loop
+    #    - icon : "ti-linkedin" # icon pack : https://themify.me/themify-icons
+    #      link : "#"
+    #      
+    #    # social site loop
+    #    - icon : "ti-github" # icon pack : https://themify.me/themify-icons
+    #      link : "#"
+
+
+################################### promo video ##########################
+promo_video:
+  enable : false
+  title : "See How we work!"
+  video_thumbnail : "images/bg/contact-bg-min-1.jpg"
+  video_link : "https://www.youtube.com/watch?v=jrkvirglgaQ"
+  content: "Our mission is to produce the highest quality work for everyclient, on every project"
+
+############################## blog ####################################
+blog:
+  enable: true
+  title : "News & Articles"
+  content : "🚀 Read all of our expert tips here. Whether you are DIY 🧙, a professional 👷 of the industry, or want to keep up 🎓 on current construction industry trends, we have it here!"
+  # blog post comes from "content/**/blog" folder.

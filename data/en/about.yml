@@ -1,0 +1,59 @@
+############################### About #################################
+about:
+  enable: true
+  title : "Build For Beauty & Accessibility"
+  content : "Absolutely Gorgeous Interiors creates and delivers simple, beautiful, and timeless design solutions with an unwavering commitment to excellence. We leverage our know-how, resources, and relationships to bring your vision to life."
+  about_item:
+    # about item loop
+    - title : "Our Mission"
+      image : "images/about/cards/page-1.jpeg"
+      content : "We believe that our spaces should be both beautiful and accessible to all who enter them. We have a strong understanding of the needs of people with disabilities, and we take pride in providing them with a beautiful home that is tailored to their needs."
+          
+    # about item loop
+    - title : "Our Promise"
+      image : "images/about/cards/page-4.jpeg"
+      content : "Our design services enable people with disabilities to live in the world they choose.  We are committed to providing a safe, accessible and comfortable living space for everyone."
+          
+    # about item loop
+    - title : "Our Approach"
+      image : "images/about/cards/page-3.jpeg"
+      content : "Professional and experienced, we have over 20 years of designing and building homes and offices. We are a full-service interior design and build firm that specializes in accessible spaces for all people."
+
+##################### Funfacts ######################################
+funfacts:
+  enable : false
+  bg_image : "images/bg/banner-1.jpg"
+  # funfact item comes from "data/**/homepage.yml" file.
+      
+############################# Team ##################################
+team:
+  enable: true
+  # team content comes from "data/**/homepage.yml" file
+
+############################ Testimonial ############################
+testimonial:
+  enable : false
+  bg_image : "images/bg/ceo-bg-1920x892px.jpeg"
+  testimonial_item:
+    # testimonial item loop
+  #  - name : "Thomas Johnson"
+  #    designation : "Excutive Director"
+  #    content: "Neque ipsa consequuntur excepturi quas repudiandae aliquam iste ab laboriosam id facere
+  #            ducimus odio sed officia provident doloribus explicabo, magni, corrupti sit."
+  #            
+  #  # testimonial item loop
+  #  - name : "Mickel hussy"
+  #    designation : "Director"
+  #    content: "Neque ipsa consequuntur excepturi quas repudiandae aliquam iste ab laboriosam id facere
+  #            ducimus odio sed officia provident doloribus explicabo, magni, corrupti sit."
+  #            
+  #  # testimonial item loop
+  #  - name : "James Watson"
+  #    designation : "Excutive manager"
+  #    content: "Neque ipsa consequuntur excepturi quas repudiandae aliquam iste ab laboriosam id facere
+  #            ducimus odio sed officia provident doloribus explicabo, magni, corrupti sit."
+
+######################### clients logo ##################################
+clients_logo:
+  enable : false
+  # clients logo comes from "config.toml" file.

@@ -1,0 +1,202 @@
+// Media Queries
+
+$breakpoints: (
+  "xs": 0,
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px,
+);
+
+@mixin xs {
+  @media (min-width: map-get($breakpoints, "xs")) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (min-width: map-get($breakpoints, "sm")) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: map-get($breakpoints, "md")) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: map-get($breakpoints, "lg")) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: map-get($breakpoints, "xl")) {
+    @content;
+  }
+}
+
+@mixin breakpoint($bp: 0) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}
+
+// mixins
+
+
+@mixin base-transition($property: all, $duration: 250ms, $timing: ease) {
+    transition: $property $duration $timing;
+    -webkit-transition: $property $duration $timing;
+    -moz-transition: $property $duration $timing;
+}
+
+@mixin fadeIn($duration: 250ms, $timing: ease, $delay: 0ms, $forwards: forwards) {
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    animation: fadeIn $duration $timing $delay $forwards;
+}
+
+
+// general styles
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 0.5em auto;
+}
+
+
+
+
+
+// Custom Navigation Fixes
+
+.navbar-collapse.collapse.show {
+    @include base-transition(background, 250ms, ease);
+    @include fadeIn(250ms, ease, 0ms, forwards);
+    @include lg {
+        animation: unset;
+        background: transparent;
+    }
+}
+
+
+
+ul.navbar-nav,
+#select-language,
+.quote-btn {
+    @include base-transition(all, 250ms ,ease);
+    @include fadeIn(250ms, ease, 350ms, forwards);
+    opacity: 0;
+    @include lg {
+        animation: unset;
+        opacity: 1;
+    }
+}
+
+
+.quote-btn {
+  position: relative;
+  z-index: 1;
+}
+
+.collapsing {
+  transition: none;
+}
+
+
+//  Homepage Slider BG Image
+
+@include lg {
+  .slider {
+    background: url('/images/bg/agi-hero-image1500x1000.jpeg')
+  }
+}
+
+
+
+//  Service Cards
+
+.card {
+  display: flex;
+  flex-flow: column wrap;
+  min-height: 425px;
+  align-content: stretch;
+}
+
+
+.card-title {
+  min-height: 60px;
+}
+
+.card-content {
+  min-height: 100px;
+}
+
+.card-btn {
+  min-height: 62px;
+  position: relative;
+  z-index: 99;
+  &.overlay {
+  &:hover {
+    background: #fff;
+    color: #333;
+  }
+}
+}
+
+.page-title,
+.bg-cover {
+  background-position: 50% 0%;
+}
+
+.section {
+  &.blog-wrap {
+    padding: 2em 0;
+  }
+}
+
+
+// breadcrumbs
+
+ol.breadcrumb-group {
+  width: fit-content;
+  li.breadcrumb-item {
+    background: 0;
+    border: 0;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    &:hover {
+      color: #000;
+    }
+    a {
+      color: #888;
+      &:hover,
+      &:active,
+      &:focus {
+        color: #000;
+      }
+    }
+    &.active {
+      a {
+        color: #000;
+        text-decoration: underline;
+      }
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+}
+

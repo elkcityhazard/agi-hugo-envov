@@ -1,0 +1,391 @@
+########################### projects ###########################
+projects:
+  title : "Latest works"
+  content : "We Aspire To Inspire"
+  project_item:
+    # project item loop
+    - title : "Bathroom Flooring"
+      image : "images/gallery/bathroom-floor-1.jpg"
+      content : "Flooring Installation"
+      categories: ["bathroom", "flooring"]
+      
+    # project item loop
+    - title : "Bathroom Flooring"
+      image : "images/gallery/bathroom-floor-2.jpg"
+      content : "Flooring Installation"
+      categories: ["bathroom", "flooring"]
+
+    # project item loop
+    - title : "Bathroom Flooring"
+      image : "images/gallery/bathroom-floor-3.jpg"
+      content : "Flooring Installation"
+      categories: ["bathroom", "flooring"]
+
+     # project item loop
+    - title : "Full Bathroom"
+      image : "images/gallery/bathroom-full-view.jpg"
+      content : "Flooring Installation"
+      categories: ["bathroom"] 
+
+    # project item loop
+    - title : "Full Bathroom"
+      image : "images/gallery/bathroom-full-2.jpg"
+      content : "Flooring Installation"
+      categories: ["bathroom"] 
+    
+    # project item loop
+    - title : "Full Bathroom"
+      image : "images/gallery/bathroom-stall-1.jpg"
+      content : "Bathroom Shower"
+      categories: ["bathroom"] 
+    
+    # project item loop
+    - title : "Full Bathroom"
+      image : "images/gallery/bathroom-stall-2.jpg"
+      content : "Bathroom Shower"
+      categories: ["bathroom", "remodel"]
+
+    # project item loop
+    - title : "Custom Bathroom"
+      image : "images/gallery/custom-bathroom-1.jpg"
+      content : "Custom Bathroom"
+      categories: ["bathroom"]  
+    
+    # project item loop
+    - title : "Custom Bathroom"
+      image : "images/gallery/custom-bathroom-2.jpg"
+      content : "Custom Bathroom"
+      categories: ["bathroom"]  
+
+    # project item loop
+    - title : "Custom Bathroom"
+      image : "images/gallery/custom-bathroom-3.jpg"
+      content : "Custom Bathroom"
+      categories: ["bathroom"]  
+
+    # project item loop
+    - title : "Custom Bathroom"
+      image : "images/gallery/custom-bathroom-4.jpg"
+      content : "Custom Bathroom"
+      categories: ["bathroom"]  
+
+    # project item loop
+    - title : "Custom Bathroom"
+      image : "images/gallery/custom-bathroom-5.jpg"
+      content : "Custom Bathroom"
+      categories: ["bathroom"]  
+        
+    # project item loop
+    - title : "Custom Bathroom"
+      image : "images/gallery/custom-bathroom-6.jpg"
+      content : "Custom Bathroom"
+      categories: ["bathroom"]  
+    
+    # project item loop
+    - title : "Custom Bathroom"
+      image : "images/gallery/custom-bathroom-7.jpg"
+      content : "Custom Bathroom"
+      categories: ["bathroom"]  
+
+    # project item loop
+    - title : "Custom Bathroom"
+      image : "images/gallery/custom-bathroom-8.jpg"
+      content : "Custom Bathroom"
+      categories: ["bathroom"]  
+
+    # project item loop
+    - title : "Custom Bathroom"
+      image : "images/gallery/custom-bathroom-9.jpg"
+      content : "Custom Bathroom"
+      categories: ["bathroom"]  
+
+    # project item loop
+    - title : "Custom Bathroom"
+      image : "images/gallery/custom-bathroom-10.jpg"
+      content : "Custom Bathroom"
+      categories: ["bathroom"]  
+
+    # project item loop
+    - title : "Custom Bathroom"
+      image : "images/gallery/custom-bathroom-11.jpg"
+      content : "Custom Bathroom"
+      categories: ["bathroom"]  
+    
+    # project item loop
+    - title : "Custom Bathroom"
+      image : "images/gallery/custom-bathroom-12.jpg"
+      content : "Custom Bathroom"
+      categories: ["bathroom"]  
+
+    # project item loop
+    - title : "Custom Bathroom"
+      image : "images/gallery/custom-bathroom-13.jpg"
+      content : "Custom Bathroom"
+      categories: ["bathroom"]  
+
+    # project item loop
+    - title : "Custom Bathroom"
+      image : "images/gallery/custom-bathroom-14.jpg"
+      content : "Custom Bathroom"
+      categories: ["bathroom"]  
+
+    # project item loop
+    - title : "Custom Bathroom"
+      image : "images/gallery/custom-bathroom-15.jpg"
+      content : "Custom Bathroom"
+      categories: ["bathroom"] 
+
+    # project item loop
+    - title : "Custom Deck"
+      image : "images/gallery/custom-deck-1.jpg"
+      content : "Custom Deck"
+      categories: ["Deck", "Custom"] 
+
+    # project item loop
+    - title : "Custom Deck"
+      image : "images/gallery/custom-deck-2.jpg"
+      content : "Custom Deck"
+      categories: ["Deck", "Custom"]  
+    
+    # project item loop
+    - title : "Custom Fireplace"
+      image : "images/gallery/custom-fireplace-1.jpg"
+      content : "Custom Fireplace"
+      categories: ["Fireplace", "Stone"] 
+
+    # project item loop
+    - title : "Custom Fireplace"
+      image : "images/gallery/custom-fireplace-2.jpg"
+      content : "Custom Fireplace"
+      categories: ["Fireplace", "Stone"] 
+
+    # project item loop
+    - title : "Custom Fireplace"
+      image : "images/gallery/custom-fireplace-3.jpg"
+      content : "Custom Fireplace"
+      categories: ["Fireplace", "Stone"] 
+    
+    # project item loop
+    - title : "Custom Flooring"
+      image : "images/gallery/custom-flooring-build-5.jpg"
+      content : "Custom Flooring"
+      categories: ["Flooring", "Installation"] 
+    
+    # project item loop
+    - title : "Custom Flooring"
+      image : "images/gallery/custom-flooring-build-1.jpg"
+      content : "Custom Flooring"
+      categories: ["Flooring", "Installation"] 
+
+    # project item loop
+    - title : "Custom Flooring"
+      image : "images/gallery/custom-flooring-build-2.jpg"
+      content : "Custom Flooring"
+      categories: ["Flooring", "Installation"] 
+
+    # project item loop
+    - title : "Custom Flooring"
+      image : "images/gallery/custom-flooring-build-3.jpg"
+      content : "Custom Flooring"
+      categories: ["Flooring", "Installation"] 
+
+    # project item loop
+    - title : "Custom Flooring"
+      image : "images/gallery/custom-flooring-build-4.jpg"
+      content : "Custom Flooring"
+      categories: ["Flooring", "Installation"] 
+    
+    # project item loop
+    - title : "Custom Stonework"
+      image : "images/gallery/custom-stone-work-1.jpg"
+      content : "Custom Stonework"
+      categories: ["Stonework", "Custom"] 
+
+    # project item loop
+    - title : "Custom Stonework"
+      image : "images/gallery/custom-stone-work-2.jpg"
+      content : "Custom Stonework"
+      categories: ["Stonework", "Custom"] 
+
+    # project item loop
+    - title : "Custom Stonework"
+      image : "images/gallery/custom-stone-work-3.jpg"
+      content : "Custom Stonework"
+      categories: ["Stonework", "Custom"] 
+
+    # project item loop
+    - title : "Custom Stonework"
+      image : "images/gallery/custom-stone-work-4.jpg"
+      content : "Custom Stonework"
+      categories: ["Stonework", "Custom"] 
+
+    # project item loop
+    - title : "Custom Stonework"
+      image : "images/gallery/custom-stone-work-5.jpg"
+      content : "Custom Stonework"
+      categories: ["Stonework", "Custom"] 
+
+    # project item loop
+    - title : "Custom Stonework"
+      image : "images/gallery/custom-stone-work-6.jpg"
+      content : "Custom Stonework"
+      categories: ["Stonework", "Custom"] 
+    
+    # project item loop
+    - title : " Flooring Installation"
+      image : "images/gallery/flooring-install-1.jpg"
+      content : "Flooring Install"
+      categories: ["Flooring"] 
+    
+    # project item loop
+    - title : "Flooring Installation"
+      image : "images/gallery/flooring-install-2.jpg"
+      content : "Flooring Install"
+      categories: ["Flooring"] 
+
+    # project item loop
+    - title : "Full Home Build"
+      image : "images/gallery/full-build-1.jpg"
+      content : "Full Home Build"
+      categories: ["Full Build"]
+
+    # project item loop
+    - title : "Full Home Build"
+      image : "images/gallery/full-build-2.jpg"
+      content : "Full Home Build"
+      categories: ["Full Build"]
+
+    # project item loop
+    - title : "Full Home Build"
+      image : "images/gallery/full-build-3.jpg"
+      content : "Full Home Build"
+      categories: ["Full Build"]
+
+    # project item loop
+    - title : "Full Home Build"
+      image : "images/gallery/full-build-4.jpg"
+      content : "Full Home Build"
+      categories: ["Full Build"]
+
+    # project item loop
+    - title : "Full Home Build"
+      image : "images/gallery/full-build-5.jpg"
+      content : "Full Home Build"
+      categories: ["Full Build"]
+
+    # project item loop
+    - title : "Full Home Build"
+      image : "images/gallery/full-build-6.jpg"
+      content : "Full Home Build"
+      categories: ["Full Build"]
+      
+    # project item loop
+    - title : "Full Home Build"
+      image : "images/gallery/full-build-7.jpg"
+      content : "Full Home Build"
+      categories: ["Full Build"]
+
+    # project item loop
+    - title : "Full Home Build"
+      image : "images/gallery/full-build-8.jpg"
+      content : "Full Home Build"
+      categories: ["Full Build"]
+
+    # project item loop
+    - title : "Full Home Build"
+      image : "images/gallery/full-build-9.jpg"
+      content : "Full Home Build"
+      categories: ["Full Build"]
+
+    # project item loop
+    - title : "Full Home Build"
+      image : "images/gallery/full-build-10.jpg"
+      content : "Full Home Build"
+      categories: ["Full Build"]
+
+    # project item loop
+    - title : "Full Home Build"
+      image : "images/gallery/full-build-11.jpg"
+      content : "Full Home Build"
+      categories: ["Full Build"]
+
+
+    # project item loop
+    - title : "Full Home Build"
+      image : "images/gallery/full-build-12.jpg"
+      content : "Full Home Build"
+      categories: ["Full Build"]
+
+    # project item loop
+    - title : "Full Home Build"
+      image : "images/gallery/full-build-13.jpg"
+      content : "Full Home Build"
+      categories: ["Full Build"]
+
+    # project item loop
+    - title : "Insulation"
+      image : "images/gallery/insulaton-1.jpg"
+      content : "Full Home Build"
+      categories: ["Insulation"]
+
+    # project item loop
+    - title : "Insulation"
+      image : "images/gallery/insulaton-2.jpg"
+      content : "Full Home Build"
+      categories: ["Insulation"]    
+   
+ #   # project item loop
+ #   - title : "Sulfur web"
+ #     image : "images/portfolio/3.jpg"
+ #     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+ #     categories: ["illustration"]
+ #       
+ #   # project item loop
+ #   - title : "Sulfur web"
+ #     image : "images/portfolio/4.jpg"
+ #     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+ #     categories: ["branding"]
+ #       
+ #   # project item loop
+ #   - title : "Sulfur web"
+ #     image : "images/portfolio/5.jpg"
+ #     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+ #     categories: ["design"]
+ #       
+ #   # project item loop
+ #   - title : "Sulfur web"
+ #     image : "images/portfolio/6.jpg"
+ #     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+ #     categories: ["branding",  "illustration", "design"]
+ #       
+ #   # project item loop
+ #   - title : "Sulfur web"
+ #     image : "images/portfolio/1.jpg"
+ #     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+ #     categories: ["illustration"]
+ #       
+ #   # project item loop
+ #   - title : "Sulfur web"
+ #     image : "images/portfolio/2.jpg"
+ #     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+ #     categories: ["branding", "illustration"]
+ #       
+ #   # project item loop
+ #   - title : "Sulfur web"
+ #     image : "images/portfolio/3.jpg"
+ #     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+ #     categories: ["design", "illustration"]
+
+####################### call to action ###############################
+cta: 
+  enable : true
+  subtitle : "Let's Bring Your Vision To Life"
+  title : "Entrust your project to our team of passionate builders and designers"
+  button_solid:
+    enable : true
+    label : "Let's Talk"
+    link : "contact"
+  button_border:
+    enable : true
+    label : "Services"
+    link : "service"

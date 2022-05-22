@@ -1,0 +1,73 @@
+########################### services ############################
+services:
+  # service item loop
+  - title : "Flooring Installation"
+    icon : "ti-home" # themify icon pack: https://themify.me/themify-icons
+    content : "Professional Flooring Installation & Repair In Traverse City, Michigan & Surrounding Areas"
+    url: "/service/flooring-contractor-traverse-city"
+    
+  # service item loop
+  - title : "Concrete Construction Services"
+    icon : "ti-home" # themify icon pack: https://themify.me/themify-icons
+    content : "Professional Concrete Construction Services In Travese City, Michigan"
+    url: "/service/concrete-construction-services-traverse-city"
+    
+  # service item loop
+  - title : "Bathroom Remodeling Services"
+    icon : "ti-wheelchair" # themify icon pack: https://themify.me/themify-icons
+    content : "Bathroom Remodel Services In Traverse City, Michigan | Accessible Restrooms"
+    url: "/service/bathroom-remodeling-services-traverse-city"
+    
+  # service item loop
+  - title : "Interior Construction Contracting"
+    icon : "ti-home" # themify icon pack: https://themify.me/themify-icons
+    content : "Professional Interion Construction Contracting Services in Traverse City, Michigan"
+    url: "/service/interior-construction-contractor-traverse-city"
+    
+  # service item loop
+  - title : "Kitchen Remodeling Services"
+    icon : "ti-home" # themify icon pack: https://themify.me/themify-icons
+    content : "Professional Kitchen Remodeling Services In Traverse City, Michigan"
+    url: "/service/kitchen-remodeling-services-traverse-city"
+    
+  # service item loop
+  - title : "General Contracting Services"
+    icon : "ti-ruler-pencil" # themify icon pack: https://themify.me/themify-icons
+    content : "Not Seeing It?  Ask Us!  We Have 25 Years In Business And Can Help You!"
+    url: "/service/general-contracting-services-traverse-city"
+    
+  ## service item loop
+  #- title : "Business Consulting"
+  #  icon : "ti-bar-chart" # themify icon pack: https://themify.me/themify-icons
+  #  content : "A digital agency isn't here to replace your internal team, we're here to partner"
+  #  
+  ## service item loop
+  #- title : "Branding"
+  #  icon : "ti-vector" # themify icon pack: https://themify.me/themify-icons
+  #  content : "A digital agency isn't here to replace your internal team, we're here to partner"
+  #  
+  ## service item loop
+  #- title : "App development"
+  #  icon : "ti-android" # themify icon pack: https://themify.me/themify-icons
+  #  content : "A digital agency isn't here to replace your internal team, we're here to partner"
+
+######################### pricing #####################################
+pricing:
+  enable : true
+  # pricing item comes from "pricing.yml" file
+
+######################## Service step #################################
+steps:
+  enable : true
+  step:
+    # step loop
+    - title : "Discuss with us"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart" 
+
+    # step loop
+    - title : "Choose your perfect plan"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart" 
+      
+    # step loop
+    - title : "Start your project"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart"
