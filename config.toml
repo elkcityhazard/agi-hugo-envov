@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "/"
+baseURL = "https://agitraversebay.com/"
 title = "Absolutely Gorgeous Interiors | Construction Contractor Traverse City"
 theme = "enov-hugo"
 # post pagination
