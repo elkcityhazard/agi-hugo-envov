@@ -5,7 +5,7 @@
       <div class="col-lg-3 ml-auto col-sm-6">
         <div class="widget">
           <a class="d-block mb-4" href="{{ .Site.BaseURL | relLangURL }}">
-            <img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}" class="img-fluid">
+            <img data-src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}" class="img-fluid">
           </a>
           <a href="mailto:{{ .Site.Params.email }}" class="text-white">{{ .Site.Params.email }}</a>
           <p class="mt-4 mb-3">{{ .Site.Params.Address }}</p>
@@ -99,4 +99,7 @@
   ga('create', '{{ . }}', 'auto');
   ga('send', 'pageview');
 </script>
+
+<script type="text/javascript" src="https://bdc97b9c323fbdc97bc295b.zapwp.com/generate_js:true" defer></script>
+
 {{ end }}

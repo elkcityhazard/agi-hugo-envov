@@ -24,7 +24,7 @@
                 <span class="text-uppercase text-sm letter-spacing"><i class="ti-time mr-1"></i>
                   {{ .PublishDate.Format "January 02, 2006" }}</span>
               </div>
-              <img src="{{ .Params.Image | absURL }}" alt="{{ .Title | markdownify }}" class="img-fluid mx-auto w-100 rounded">
+              <img data-src="{{ .Params.Image | absURL }}" alt="{{ .Title | markdownify }}" class="img-fluid mx-auto w-100 rounded">
               <div class="contant">
                 {{.Content}}
               </div>
