@@ -21,5 +21,11 @@
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
 
+  {{ template "_internal/opengraph.html" . }}
+
+  {{ template "_internal/twitter.html" . }}
+
   {{ template "_internal/schema.html" . }}
+  <script defer data-domain="agitraversebay.com" src="https://plausible.io/js/plausible.js"></script>
+
 </head>
