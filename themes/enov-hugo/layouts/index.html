@@ -68,7 +68,7 @@
     <div class="row">
       <div class="col-lg-6">
         <div class="about-img mb-5 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
-          <img data-src="{{ .image | absURL }}" alt="" class="img-fluid" loading="lazy" decoding="async">
+          <img src="{{ .image | absURL }}" alt="" class="img-fluid" loading="lazy" decoding="async">
         </div>
       </div>
       <div class="col-lg-6">
@@ -209,7 +209,7 @@
       <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
         <div class="shadow-sm-2 blog-item bg-white rounded" data-aos="fade-up" data-aos-delay="{{ $delay }}"
           data-aos-duration="500">
-          <img data-src="{{ .Params.Image | absURL }}" class="img-fluid rounded-top" alt="{{ .Title | markdownify }}">
+          <img src="{{ .Params.Image | absURL }}" class="img-fluid rounded-top" alt="{{ .Title | markdownify }}">
           <div class="p-4">
             <div class="d-flex w-100 justify-content-between">
               <span><i class="ti-user mr-1"></i><a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</a></span>

@@ -20,7 +20,7 @@
       {{ range $index, $element:= .about_item }}
       {{ $delay:= mul $index 200 }}
       <div class="col-lg-4 mb-4 mb-lg-0 col-md-6" data-aos="fade-up" data-aos-delay="{{ $delay }}">
-        <img data-src="{{ .image | absURL }}" alt="{{ .title | markdownify }}" class="img-fluid rounded">
+        <img src="{{ .image | absURL }}" alt="{{ .title | markdownify }}" class="img-fluid rounded">
         <div class="about-info-item mt-4">
           <h3 class="mb-3">{{ .title | markdownify }}</h3>
           <p>{{ .content | markdownify }}</p>
@@ -100,7 +100,7 @@
     <div class="row">
       {{ range .Site.Params.clients_logo }}
       <div class="col-lg-3 col-md-4 col-sm-4">
-        <img data-src="{{ .logo | absURL }}" alt="logo" class="img-fluid w-100">
+        <img src="{{ .logo | absURL }}" alt="logo" class="img-fluid w-100">
       </div>
       {{ end }}
     </div>

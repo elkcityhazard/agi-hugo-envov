@@ -1,5 +1,5 @@
 <div class="blog-item text-center ">
-  <img data-src="{{ .Params.Image | absURL }}" alt="{{ .Title | markdownify }}" class="img-fluid mx-auto mb-4 rounded">
+  <img src="{{ .Params.Image | absURL }}" alt="{{ .Title | markdownify }}" class="img-fluid mx-auto mb-4 rounded">
  {{ range .Params.Categories }}<span class="letter-spacing text-color text-sm text-uppercase"><a href="{{ `categories/` | relLangURL }}{{ . | lower }}"> {{ . | humanize }}</a></span>{{ end }}
   <h3 class="mb-1"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h3>
   <div class="blog-item-meta">
