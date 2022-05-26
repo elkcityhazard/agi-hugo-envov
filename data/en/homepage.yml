@@ -32,9 +32,9 @@ feature:
   title : "Stunning Interior Construction & Accessibility Solutions Serving Traverse City and Surround Areas"
   feature_item:
     # feature item loop
-    - title : "Modern Luxury Designs"
+    - title : "Modern Luxury Interiors and Exteriors"
       icon : "ti-ruler-pencil" # icon pack : https://themify.me/themify-icons
-      content : "25 years of experience designing & building luxury homes and and commercial offices."
+      content : "25 years of experience designing & building luxury homes and and commercial offices"
       
     # feature item loop
     - title : "Certifed Accessibility Contractor"
@@ -83,7 +83,7 @@ funfacts:
 ######################### Service #####################################
 service:
   enable : true
-  title : "Total All In One Solution"
+  title : "A Complete Interior & Exterior"
   content : "We leverage our know-how and professional network to be the only contractor you need for your new construction or remodel project."
   # service item comes from "data/**/service.yml" file
 
@@ -96,7 +96,7 @@ pricing:
 team:
   enable: true
   title : "Our Team"
-  content : "We Can Help Realize Your Ideal Living Space"
+  content : "We Can Help Realize Your Perfect Living Space"
   team_member:
     ################### team member loop
     - name : "Mark Delikta"

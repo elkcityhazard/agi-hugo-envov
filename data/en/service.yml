@@ -53,7 +53,7 @@ services:
 
 ######################### pricing #####################################
 pricing:
-  enable : true
+  enable : false
   # pricing item comes from "pricing.yml" file
 
 ######################## Service step #################################
@@ -61,13 +61,13 @@ steps:
   enable : true
   step:
     # step loop
-    - title : "Discuss with us"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart" 
+    - title : "Discuss"
+      content : "We listen to your vision and create a proposal that works for you" 
 
     # step loop
-    - title : "Choose your perfect plan"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart" 
+    - title : "Design"
+      content : "Our experienced design team will go to work designing your project" 
       
     # step loop
-    - title : "Start your project"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart"
+    - title : "Develop"
+      content : "Our trained professionals will turn your vision into a your reality"
