@@ -25,8 +25,8 @@
       <div class="col-lg-6 col-sm-12">
         <div class="contact-content pl-lg-5 mt-5 mt-lg-0">
           <h3 class="mb-3">{{ .Site.Params.address | markdownify }}</h3>
-          <h2 class="mb-3">{{ .Site.Params.phone }}</h2>
-          <h2 class="mb-3">{{ .Site.Params.email }}</h2>
+          <h2 class="mb-3" style="font-size: 2em;">{{ .Site.Params.phone }}</h2>
+          <h2 class="mb-3" style="font-size: 2em;">{{ .Site.Params.email }}</h2>
           <ul class="social-icons list-inline mt-5">
             {{ range .Site.Params.social }}
             <li class="list-inline-item">
@@ -39,22 +39,152 @@
     </div>
     <div class="row justify-content-center mt-5">
       <div class="col-lg-8 text-center mt-4">
-        <form class="contact__form" method="post" action="{{ .Site.Params.contact_form_action }}">
+        <form id="contact_form" method="post" id="contact-form" action="{{ .Site.Params.contact_form_action }}">
           <h3 class="text-md">{{ i18n "contact_us" }}</h3>
-          <div class="form-group">
-            <input name="name" type="text" class="form-control" placeholder="Your Name">
+          <div class="form-group d-none">
+            <input id="form-username" name="username" type="text"  class="form-control" placeholder="Your username">
           </div>
           <div class="form-group">
-            <input name="email" type="email" class="form-control" placeholder="Email Address">
+            <input id="form-name" name="name" type="text" class="form-control" placeholder="Your Name">
+            <small class="error-name"></small>
+          </div>
+          <div class="form-group">
+            <input id="form-email" name="email" type="email" class="form-control" placeholder="Email Address">
+            <small class="error-email"></small>
           </div>
           <div class="form-group-2 mb-4">
-            <textarea name="message" class="form-control" rows="4" placeholder="Your Message"></textarea>
+            <textarea id="form-message" name="message" class="form-control" rows="4" placeholder="Your Message"></textarea>
+            <small class="error-message"></small>
           </div>
-          <button class="btn btn-main" name="submit" type="submit">{{ i18n "send_message" }}</button>
+          <button class="btn btn-main" name="submit" type="submit"
+          >{{ i18n "send_message" }}</button>
         </form>
       </div>
     </div>
   </div>
 </section>
 
+<script defer="true">
+
+
+  const contactForm = document.getElementById('contact_form')
+  const nameMessage = document.querySelector('.error-name')
+  const emailMessage = document.querySelector('.error-email')
+  const messageMessage = document.querySelector('.error-message')
+  let errorState = false
+
+  function getCookie(cookieName) {
+    const name = `${cookieName}=`
+    const decoded = decodeURIComponent(document.cookie)
+    const cookies = document.cookie.split(";")
+    let response
+
+    cookies.forEach((cookie) => {
+
+      if (!cookie) {
+        errorState = true
+        e.preventDefault()
+        return errorState
+      }
+
+      if (cookie.indexOf(name) === 0) {
+        response = cookie.substring(name.length)
+      }
+    })
+    return response
+  }
+
+
+  function resetMessage(messageArr) {
+    errorState = false
+   for (const message of messageArr) {
+     message.textContent = ""
+   }
+  }
+
+  //   checkForbidden check's for the naughty characters
+
+
+  function checkForbidden(string) {
+      naughty = ["<", ">", ";", "{", "}", "[", "]"]
+
+      const check = string.split("").every((character) => {
+        return !naughty.includes(character)
+      })
+
+      if (!check) {
+        messageMessage.textContent = "error parsing input"
+        errorState = true
+        return null
+      }
+
+      return true
+
+    }
+
+
+    //  checkInput takes in an input, gets its value, trims, lowercases, and checks some conditions
+
+  function checkInput(input, msgField) {
+    input = document.getElementById(input).value.toLowerCase().trim()
+    let message = ""
+
+    checkForbidden(input)
+
+    if (input.length < 3) {
+      message = "input length is too short"
+      errorState = true
+      msgField.textContent = message
+      return errorState
+    }
+
+    if (input.length > 350) {
+      message="input length is too long"
+      errorState = true
+      msgField.textContent = message
+      return errorState
+    }
+
+    return input
+  }
+
+
+  function checkEmail(input, msgField) {
+
+    const emailRegex = /(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])/
+    input = document.getElementById(input).value
+
+    if (!emailRegex.test(input)) {
+      message="invalid email addresss"
+      msgField.textContent = message
+      errorState = true
+      return errorState
+
+    }
+
+    return input
+
+  }
+
+
+  contactForm.addEventListener('submit', (e) => {
+    getCookie('formCookie')
+    resetMessage([nameMessage, emailMessage, messageMessage])
+    checkInput('form-name', nameMessage)
+    checkEmail('form-email', emailMessage)
+    checkInput('form-message', messageMessage)
+
+
+    if (errorState) {
+      e.preventDefault();
+      return null
+    }
+
+
+  })
+
+</script>
+
 {{ end }}
+
+
