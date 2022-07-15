@@ -2,7 +2,7 @@
 title: Flooring Installation Traverse City | Northern Michigan Hardwood Flooring & Tile Installation
 description: "Floor Installation In Traverse City and Northern Michigan.  Carpet, Tile, Laminate, Vinyl, Wood and Hardwood Flooring.  Stone and tile service installer.  Wood Floor."
 author: Absolutely Gorgeous Interiors
-date: 2022-07-16
+date: 2022-07-15
 draft: false
 bg_image: 
 image: "/static/bg/agi-hero-image-1500x1000.jpeg"
